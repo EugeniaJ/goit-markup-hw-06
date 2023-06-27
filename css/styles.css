@@ -261,25 +261,25 @@ p, h1,h2,h3,h4,h5,h6 {
 
     /*---BENETITS----*/
     .benefits {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 96px;
+        padding-bottom: 96px;
         
-    }
+    } 
     
     .benefits-list {
         display: flex;
-        gap: 24px;
-        padding-left: 0;
-        
+        gap: 72px;
+        flex-wrap: wrap;
     }
     .benefits-icon {
+  
       
     }
     .benefits-item {
-        width: calc((100% - 72px) / 4);
-
+        /* width: calc((100% - 72px) / 4); */
+        width: 100%;
     }
-    .benefits-item-block {
+     .benefits-item-block {
         width: 264px;
         height: 112px;
         background: var(--light-white);
@@ -288,8 +288,9 @@ p, h1,h2,h3,h4,h5,h6 {
         align-items: center;
         justify-content: center;
         margin-bottom: 8px;
+        display: none;
 
-    }
+    }  
     .benefits-subtitle {
         font-weight: 500;
         font-size: 20px;
@@ -1091,3 +1092,80 @@ gap: 24px;
     line-height: 2.1;
     letter-spacing: 0.48px;
 }
+
+
+
+
+/* mob media 1 section */
+@media screen and (min-width:428px) {
+    .container {
+        max-width: 426px;
+    }
+    .benefits-item {
+        max-width: 396px;
+    }
+     .benefits-subtitle{
+        text-align: center;
+        align-items: center;
+     }
+    
+    
+}
+
+
+/* tablet media 1section */
+@media screen and (min-width:768px) {
+    .container {
+         max-width: 768px;
+        }
+   .benefits-item {
+       max-width:unset;
+       width: calc((100% - 24px) / 2);
+   }
+         .benefits-list{
+        gap: 72px 24px;
+         }
+      
+  
+}
+
+
+/* desctop media 1section */
+
+
+@media screen and (min-width:1158px) {
+   .container{
+max-width: 1158px;
+   }
+   .benefits-item{
+    width: calc((100% - 72px) / 4);
+   }
+  .benefits {
+      padding-top: 120px;
+      padding-bottom: 120px;
+
+  }
+ .benefits-list {
+     gap: 24px;}
+
+
+ .benefits-item-block {
+     width: 264px;
+     height: 112px;
+     background: var(--light-white);
+     border-radius: 4px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 8px;
+     display: block;
+     padding: 24px 100px;
+
+ }
+
+}
+
+
+
+
+
