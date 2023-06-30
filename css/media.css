@@ -197,8 +197,16 @@
              color: var(--hover-link);
          }
 
+    .footer-cont{
+        max-width: 584px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 72px 24px;
+    }
+       
 
-         .justify-container:unset;
+  
    .benefits-subtitle{
     text-align: left;
    }
