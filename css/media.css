@@ -15,9 +15,34 @@
     }
 
     .header {
-      
         
     }
+
+    .form-input{
+        width: 398px;
+    }
+
+        .team-list {
+            margin-left: 82px; 
+             margin-right: 82px; 
+        }
+
+        .form-input{
+            margin-right: 24px; 
+        }
+
+.contact-icon{
+    margin-left: 110px;
+    margin-right: 110px; 
+}
+
+.footer-top{
+    padding-left: 80px;
+    padding-right: 80px;  
+}
+
+
+
 }
 
 

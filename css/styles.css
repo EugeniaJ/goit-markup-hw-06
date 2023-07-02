@@ -156,6 +156,7 @@ background-color: #FFF;
 z-index: 999;
 display: flex;
 flex-direction: column;
+
 justify-content: space-between;
 
 
@@ -620,8 +621,8 @@ color: var(--slate, #434455);
 
              }
              .team-list{
-             margin-left: 82px;
-             margin-right: 82px;
+             /* margin-left: 82px; 
+              margin-right: 82px; */
              }
 
             .icons-site-link {
@@ -758,8 +759,8 @@ fill: currentColor;
 }
 
 .footer-top{
-     padding-left: 80px;
-    padding-right: 80px; 
+     /* padding-left: 80px;
+    padding-right: 80px;  */
     text-align: center;
     
     
@@ -780,7 +781,7 @@ fill: currentColor;
 .footer-cont {
     display: flex;
     gap: 72px;
-    
+    align-items: center;
     /* padding: 96px 15px; */
     justify-content: center;
     flex-wrap: wrap;
@@ -837,8 +838,8 @@ padding: 8px 16px;
    
 .contact-icon {
 text-align: center;
-margin-left: 110px;
-    margin-right: 110px;
+/* margin-left: 110px;
+    margin-right: 110px; */
 }
 
 .icons-site-link-f:hover {
@@ -1359,7 +1360,7 @@ gap: 24px;
 
 }
 .form-input {
-    width: 398px;
+    width: 300px;
     height: 40px;
     color: #ffffff;
     outline: transparent;
@@ -1367,7 +1368,7 @@ gap: 24px;
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
+    /* margin-right: 24px; */
     padding-left: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
