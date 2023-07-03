@@ -182,6 +182,13 @@
         gap: 72px 24px;
     }
        
+.footer{
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+
+
  .form {
      display: flex;
      flex-direction: row;
@@ -260,9 +267,7 @@ padding-top: 112px;
 
 
     .team {
-        padding-left: 108px;
-        padding-right: 108px;
-      
+       
     }
 
 .team-cont{
@@ -782,7 +787,7 @@ padding-top: 112px;
    .team-list {
        display: flex;
        gap: 24px;
-       padding-left: 0;
+     
 
    }
 
@@ -942,6 +947,7 @@ padding-top: 112px;
    .footer-cont {
        display: flex;
        align-items: baseline;
+        flex-wrap: nowrap;
    }
 
    .gen-soc {
