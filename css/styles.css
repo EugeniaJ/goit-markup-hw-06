@@ -778,9 +778,9 @@ fill: currentColor;
 .footer-cont {
     display: flex;
     gap: 72px;
-    align-items: center;
+   
     /* padding: 96px 15px; */
-    justify-content: center;
+  
     flex-wrap: wrap;
     flex-direction: column;
    
