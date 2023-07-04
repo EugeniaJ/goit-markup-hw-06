@@ -21,14 +21,14 @@
     }
 
     .form-input{
-        width: 398px;
+        width: 308px;
     }
 
-         .team-list {
-          
-        } 
 
-     
+     .footer-text{
+       
+        align-items: center;
+     }
 
 
 
@@ -168,18 +168,17 @@
         
 
     .footer-cont{
-        max-width: 584px;
+        min-width: 584px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-         gap: 72px 24px; 
+        justify-content: center;
+         
     }
        
 .footer{
-    padding-top: 97px;
-    padding-bottom: 97px;
-    padding-left: 108px;
-    padding-right: 108px;
+  
+    
 }
 
 
@@ -196,6 +195,7 @@
 
     .footer-top{
         text-align: left;
+       
     }
 
   .contact-icon{
@@ -257,6 +257,15 @@ padding-top: 112px;
         text-align: center;
         justify-content: center;
         max-width: 496px;
+        color: var(--white, #FFF);
+            text-align: center;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 1.12px;
+            margin-bottom: 36px;
+          
 }
 
 
@@ -754,6 +763,7 @@ padding-top: 112px;
        background: var(--light-white);
        padding-top: 120px;
        padding-bottom: 120px;
+       
    }
 
    .team-title {
@@ -902,13 +912,13 @@ padding-top: 112px;
        background-color: var(--title-color);
        padding-top: 100px;
        padding-bottom: 100px;
-        padding-left: 157px;
-            padding-right: 157px;
+  
       flex-direction: row;
 
    }
 
 .contact-icon{
+    margin-left: 60px;
     margin-right: 80px;
 }
    .footer-logo {
@@ -945,6 +955,7 @@ padding-top: 112px;
        width: 264px;
        max-width: 264px;
        line-height: 1.5;
+      text-align: left;
    }
 
    .footer-cont {
@@ -960,6 +971,10 @@ padding-top: 112px;
 
    }
 
+
+   .product{
+    display: block;
+   }
    .gen-soc-team {
        display: flex;
        gap: 24px;
@@ -1013,7 +1028,9 @@ padding-top: 112px;
    }
 
    .footer-top {
-        margin-right: 120px; 
+         /* margin-right: 100px;   */
+        text-align: left;
+       
    }
 
    .form-text {
@@ -1050,6 +1067,11 @@ padding-top: 112px;
 
    }
 
+   .footer-top {
+       /* margin-right: 60px; */
+       
+
+   }
    .portf-btn {
        border: none;
        margin-left: auto;
@@ -1481,14 +1503,14 @@ padding-top: 112px;
 
    /*-----form----*/
    .form-cont {
-
-       margin-left: 80px;
+ 
    }
 
    .form {
        justify-content: space-between;
        display: flex;
        align-items: center;
+    
        gap: 24px;
    }
 

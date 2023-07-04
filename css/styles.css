@@ -377,16 +377,14 @@ color: var(--slate, #434455);
     stroke: currentColor;
     border: none;
     background: transparent;
-    margin: 24px 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
     text-align: center;
     justify-content: center;
     margin-left: auto;
     }
 
-    .btn-burg{
-
-    }
-
+  
 
 
     
@@ -591,8 +589,8 @@ color: var(--slate, #434455);
                 display: flex;
                 /* gap: 24px; */
                 gap: 72px;
-             
-               
+             justify-content: center;
+           
                 flex-wrap: wrap;
                 
                 
@@ -759,7 +757,7 @@ fill: currentColor;
      /* padding-left: 80px;
     padding-right: 80px;  */
     text-align: center;
-   
+
     
 }
    
@@ -769,18 +767,21 @@ fill: currentColor;
     letter-spacing: 0.02em;
     color: var(--light-white);
     width: 264px;
-    max-width: 264px;
     text-align: left;
     line-height: 1.5; 
+    align-items: center;
+   
    
 }
 
 .footer-cont {
     display: flex;
-    gap: 72px;
-   
+    gap: 72px 24px;
+    padding-top: 96px;
+    padding-bottom: 96px; 
+    /* padding: 96px 82px; */
     /* padding: 96px 15px; */
-  
+
     flex-wrap: wrap;
     flex-direction: column;
    
@@ -830,13 +831,16 @@ padding: 8px 16px;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     margin-bottom: 16px;
-
+   align-items: center;
+  
     height: 24px;
 }
    
 .contact-icon {
 text-align: center;
-
+margin-left: 90px;
+justify-content: center;
+align-items: center;
 /* margin-left: 110px;
     margin-right: 110px; */
 }
@@ -849,11 +853,7 @@ text-align: center;
 .icons-site-link-f:focus {
     background-color: #31d0aa;
 }
- .footer-top {
-    /* margin-right: 120px; */
-
- }
-
+ 
 
 
 .form-text {
@@ -867,7 +867,9 @@ text-align: center;
 }
 
 .form-cont-mob {
-text-align: center;
+left: auto;
+flex-direction: column;
+
 gap: 16px;
 }
   .form {
@@ -1314,7 +1316,8 @@ color: #8E8F99;
 /*-----form----*/
 .form-cont {
 
-margin-left: 80px;
+    
+
 }
 .form {
 justify-content: space-between;
