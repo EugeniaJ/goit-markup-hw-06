@@ -30,11 +30,25 @@
         align-items: center;
      }
 
+     .mob-menu{
+     
+     }
+
+  
+     }
 
 
 
+@media screen and (max-width:427px) {
 
-} 
+.modal{
+    width: calc(100%-30px);
+}
+
+}
+
+
+
 
 
 /* tablet media 1section */
@@ -51,7 +65,9 @@
              gap: 40px;
     
          }
-    
+        .modal {
+            width: 408px;
+        }
          .header-menu-item {
     
              transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -410,7 +426,9 @@ padding-top: 112px;
   
 }
 
-
+.backdrop{
+    overflow: scroll;
+}
    
 }
 
@@ -1097,7 +1115,9 @@ padding-top: 112px;
    }
 
 
-
+  .modal {
+      width: 408px;
+  }
 
    .block-text {
        font-weight: 400;
